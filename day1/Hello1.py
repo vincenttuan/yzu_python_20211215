@@ -1,0 +1,5 @@
+print("Hello Python")
+print("哈囉 Python")
+print(1+4)
+print(10/3)
+print(10//3)
