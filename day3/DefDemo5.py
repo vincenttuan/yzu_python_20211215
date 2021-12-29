@@ -20,8 +20,10 @@ def calcBuyCost(amount, price, discount):
     cost = buy + (buy * newfee)  # 買入成本 = 買入金額 + 手續費
     print('買入成本: %.1f' % cost)
 
-calcBuyCost(1, 616, 1)
-calcBuyCost(1, 616, 0.5)
+# Python 主方法
+if __name__ == '__main__':
+    calcBuyCost(1, 616, 1)
+    calcBuyCost(1, 616, 0.5)
 
 
 

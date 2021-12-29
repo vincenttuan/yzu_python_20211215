@@ -14,5 +14,7 @@ def calcSell(amount, price, discount):
     total = sell - (sell*newfee) - (sell*tax)
     print('Total: %.1f' % total)
 
-calcSell(1, 616, 1)
-calcSell(1, 616, 0.5)
+# Python 主方法
+if __name__ == '__main__':
+    calcSell(1, 616, 1)
+    calcSell(1, 616, 0.5)
