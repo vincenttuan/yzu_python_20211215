@@ -7,3 +7,6 @@ for i in range(1, 10, 3):
 
 for score in [100, 90, 80, 70]:
     print(score)
+
+for i, score in enumerate([100, 90, 80, 70]):
+    print(i, score)
