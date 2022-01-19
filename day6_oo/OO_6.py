@@ -25,3 +25,7 @@ if __name__ == '__main__':
     b = Account('Anita', 6000)
     print(a, b)
     # 存款(deposit) 提款 (withdrawal)
+    state, message = a.deposit(3000)
+    print(state, message, a)
+    state, message = b.withdrawal(2000)
+    print(state, message, b)
