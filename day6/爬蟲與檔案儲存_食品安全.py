@@ -24,8 +24,8 @@ for food in bad_foods:
 # Lab 資料寫入
 # 請將透過關鍵字「池上」所搜尋到的結果，逐筆寫入到 bad_foods.txt
 # 寫完 +10
-# 提示：r: read, w: write, a: append
-file = open('bad_foods.txt', 'a', encoding='UTF-8')
+# 提示：r: read, w: write(清除原有資料並寫入), a: append(保留原有資料並寫入)
+file = open('bad_foods.txt', 'w', encoding='UTF-8')
 for target in target_foods:
     file.write(str(target))
     file.write('\n')
