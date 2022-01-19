@@ -14,12 +14,20 @@ print(bad_foods)
 
 # 資料分析
 print('資料分析:')
+target_foods = []
 keyword = input('請輸入關鍵字: ')
 for food in bad_foods:
     if keyword in food['品名']:
         print(food)
+        target_foods.append(food)
 
 # Lab 資料寫入
 # 請將透過關鍵字「池上」所搜尋到的結果，逐筆寫入到 bad_foods.txt
 # 寫完 +10
 # 提示：r: read, w: write, a: append
+file = open('bad_foods.txt', 'a', encoding='UTF-8')
+for target in target_foods:
+    file.write(str(target))
+    file.write('\n')
+
+print('寫檔成功')
