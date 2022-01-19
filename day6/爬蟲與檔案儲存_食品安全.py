@@ -19,3 +19,7 @@ for food in bad_foods:
     if keyword in food['品名']:
         print(food)
 
+# Lab 資料寫入
+# 請將透過關鍵字「池上」所搜尋到的結果，逐筆寫入到 bad_foods.txt
+# 寫完 +10
+# 提示：r: read, w: write, a: append
