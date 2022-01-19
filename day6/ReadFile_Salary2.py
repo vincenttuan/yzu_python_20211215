@@ -20,3 +20,10 @@ for employee in employees:
     sum = sum + employee['salary']
 avg = sum / len(employees)
 print('薪資總合: %d、薪資平均: %.1f' % (sum, avg))
+
+# 將計算結果寫入檔案
+result = '薪資總合: %d、薪資平均: %.1f' % (sum, avg)
+file = open('result.txt', 'w', encoding='UTF-8')
+file.write(result)
+file.close()
+print('寫入檔案完成')
