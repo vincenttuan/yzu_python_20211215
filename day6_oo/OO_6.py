@@ -20,6 +20,13 @@ class Account:
         else:
             return False, '提款失敗。提款金額過大 $%d' % amount
 
+    def transfer(self, act, amount):
+        if self.__balance < amount:
+            return False, '轉帳失敗。轉帳金額過大 $%d' % amount
+        self.withdrawal(amount)  # 提款
+        act.deposit(amount)  # 存款
+        return True, '轉帳成功'
+
 if __name__ == '__main__':
     a = Account('Vincent', 10000)
     b = Account('Anita', 6000)
@@ -29,3 +36,9 @@ if __name__ == '__main__':
     print(state, message, a)
     state, message = b.withdrawal(2000)
     print(state, message, b)
+    # 轉帳(transfer)
+    state, message = a.transfer(b, 1500)
+    print(state, message, a, b)
+
+    state, message = a.transfer(b, 99999)
+    print(state, message, a, b)
