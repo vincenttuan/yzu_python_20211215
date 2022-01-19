@@ -2,4 +2,4 @@ John,45000
 Mary,55000
 Tom,38000
 Helen,65000
-Boss,1500000
+Boss,150000

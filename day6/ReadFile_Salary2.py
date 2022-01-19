@@ -13,3 +13,10 @@ for row in rows:
     employees.append(employee)
 
 print(employees)
+# Lab 請求出薪資總合與平均 = ?
+sum = 0
+for employee in employees:
+    #print(employee['salary'], type(employee['salary']))
+    sum = sum + employee['salary']
+avg = sum / len(employees)
+print('薪資總合: %d、薪資平均: %.1f' % (sum, avg))
