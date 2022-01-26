@@ -21,3 +21,4 @@ if __name__ == '__main__':
     student = Student('John', 18, '男', 1, '大一')
     print(student.name, student.age, student.sex, student.number, student.grade)
     print(student)
+    
