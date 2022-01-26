@@ -9,8 +9,10 @@ https://drive.google.com/drive/folders/11TA2-LvvWF-9l4Oo3dEirZoSzCMW3CVT?usp=sha
     <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day3">方法與模組</a></li>
     <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day4">字串應用、條件控制與迴圈控制</a></li>
     <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day5">演算法與爬蟲</a></li>
-    <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day6">物件導向-1</a></li>
-    <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day7">物件導向-2與智慧選股</a></li>
+    <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day6">檔案存取與爬蟲應用</a></li>
+    <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day6_oo">物件導向-1</a></li>
+    <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day7_oo">物件導向-2</a></li>
+    <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day7_twii">選股策略</a></li>
 </ol>
 
 <hr>
