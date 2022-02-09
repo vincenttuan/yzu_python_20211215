@@ -28,8 +28,9 @@ def haversine(lon1, lat1, lon2, lat2) -> int: # 經度1，緯度1，經度2，�
     c = 2 * asin(sqrt(a))
     r = 6371 # 地球平均半徑(公里)
     return c * r * 1000 # 單位公尺
-
-
+</pre>
+<hr>
+<pre>
 All file modes in Python
 r for reading
 r+ opens for reading and writing (cannot truncate a file)
