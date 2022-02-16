@@ -5,7 +5,7 @@ import tkinter
 | My Window2 |
 +------------+
 |   Label    |
-|            |
+| BTN1 BTN2  |
 +-------------
 '''
 win = tkinter.Tk()  # 取得視窗物件
@@ -21,5 +21,9 @@ label = tkinter.Label(
     height=5
 )
 label.pack()
-
+# Button 元素配置
+button1 = tkinter.Button(win, text="OK", width=10, height=2, font=('Arial', 20))
+button2 = tkinter.Button(win, text="Exit", width=10, height=2, font=('Arial', 20))
+button1.pack(side=tkinter.LEFT)
+button2.pack(side=tkinter.RIGHT)
 win.mainloop()  # GUI 視窗運行
