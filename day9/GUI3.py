@@ -8,7 +8,7 @@ from tkinter import messagebox
 +------------+
 |   Label    |
 | BTN1 BTN2  |
-+-------------
++------------+
 '''
 def show_message():
     messagebox.showinfo('Hello', 'I Love Python ...')

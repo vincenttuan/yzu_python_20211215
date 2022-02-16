@@ -6,7 +6,7 @@ import tkinter
 +------------+
 |            |
 |            |
-+-------------
++------------+
 '''
 win = tkinter.Tk()  # 取得視窗物件
 win.title('My Window')  # 設定視窗抬頭

@@ -8,7 +8,7 @@ from tkinter import messagebox
 +------------+
 |     5      |
 | Add   Exit |
-+-------------
++------------+
 '''
 value = 0
 
