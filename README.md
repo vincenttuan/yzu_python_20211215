@@ -13,6 +13,7 @@ https://drive.google.com/drive/folders/11TA2-LvvWF-9l4Oo3dEirZoSzCMW3CVT?usp=sha
     <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day6_oo">物件導向-1</a></li>
     <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day7_oo">物件導向-2</a></li>
     <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day7_twii">選股策略</a></li>
+    <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day9">SQLite 資料庫</a></li>
 </ol>
 
 <hr>
