@@ -32,7 +32,9 @@ pip uninstall opencv-python<br>
 &nbsp;&nbsp;&nbsp;&nbsp;
 pip install opencv-python<br>
 &nbsp;&nbsp;&nbsp;&nbsp;
-pip install opencv-contrib-python<br>
+pip install opencv-contrib-python<br><br>
+下載 haarcascade.zip 並解壓縮後放到 pycharm 中:<br>
+<a href="https://github.com/vincenttuan/yzu_python_20211215/blob/main/haarcascade.zip">下載 haarcascade.zip</a>
 <hr>
 <pre>
 # 透過經緯度計算距離的方法
