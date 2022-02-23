@@ -47,3 +47,15 @@ a+ opens for appending
 ab+ Opens a file for both appending and reading in binary. The file pointer is at the end of the file if the file exists. The file opens in the append mode.
 x open for exclusive creation, failing if the file already exists (Python 3)
 </pre>
+<pre>
+安裝 PIL
+pip install pillow
+
+安裝 py-opencv :
+反安裝(若之前有其他本):
+pip uninstall opencv-contrib-python
+pip uninstall opencv-python
+再安裝:
+pip install opencv-python
+pip install opencv-contrib-python
+</pre>
