@@ -21,7 +21,7 @@ https://drive.google.com/drive/folders/11TA2-LvvWF-9l4Oo3dEirZoSzCMW3CVT?usp=sha
     </li>
 </ol>
 安裝 PIL :<br>
-pip install pillow<p>
+pip install pillow<br><br>
 安裝 py-opencv :<br>
 反安裝(若之前有其他本):<br>
 pip uninstall opencv-contrib-python<br>
