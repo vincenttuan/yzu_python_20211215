@@ -18,8 +18,6 @@ https://drive.google.com/drive/folders/11TA2-LvvWF-9l4Oo3dEirZoSzCMW3CVT?usp=sha
     <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day9">GUI介面</a></li>
     <li>
         <a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day10">OpenCV 辨識與人臉認識機器學習</a>
-        
-        
     </li>
 </ol>
 
