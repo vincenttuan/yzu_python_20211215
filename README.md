@@ -20,16 +20,16 @@ https://drive.google.com/drive/folders/11TA2-LvvWF-9l4Oo3dEirZoSzCMW3CVT?usp=sha
         <a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day10">OpenCV 辨識與人臉認識機器學習</a>
     </li>
     <li>
-        安裝 PIL<br />
-        pip install pillow<br /><br />
+        安裝 PIL<br>
+        pip install pillow<br><br>
 
-        安裝 py-opencv :<br />
-        反安裝(若之前有其他本):<br />
-        pip uninstall opencv-contrib-python<br />
-        pip uninstall opencv-python<br />
+        安裝 py-opencv :<br>
+        反安裝(若之前有其他本):<br>
+        pip uninstall opencv-contrib-python<br>
+        pip uninstall opencv-python<br>
         再安裝:<br />
-        pip install opencv-python<br />
-        pip install opencv-contrib-python<br />
+        pip install opencv-python<br>
+        pip install opencv-contrib-python<br>
     </li>
 </ol>
 
