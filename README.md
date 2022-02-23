@@ -16,7 +16,20 @@ https://drive.google.com/drive/folders/11TA2-LvvWF-9l4Oo3dEirZoSzCMW3CVT?usp=sha
     <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day8">例外處理</a></li>
     <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day8_sqlite">SQLite 資料庫</a></li>
     <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day9">GUI介面</a></li>
-    <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day10">OpenCV 辨識與人臉認識機器學習</a></li>
+    <li>
+        <a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day10">OpenCV 辨識與人臉認識機器學習</a>
+        安裝 PIL<br />
+        pip install pillow<br /><br />
+
+        安裝 py-opencv :<br />
+        反安裝(若之前有其他本):<br />
+        pip uninstall opencv-contrib-python<br />
+        pip uninstall opencv-python<br />
+        再安裝:<br />
+        pip install opencv-python<br />
+        pip install opencv-contrib-python<br />
+        
+    </li>
 </ol>
 
 <hr>
@@ -47,15 +60,4 @@ a+ opens for appending
 ab+ Opens a file for both appending and reading in binary. The file pointer is at the end of the file if the file exists. The file opens in the append mode.
 x open for exclusive creation, failing if the file already exists (Python 3)
 </pre>
-<pre>
-安裝 PIL
-pip install pillow
 
-安裝 py-opencv :
-反安裝(若之前有其他本):
-pip uninstall opencv-contrib-python
-pip uninstall opencv-python
-再安裝:
-pip install opencv-python
-pip install opencv-contrib-python
-</pre>
