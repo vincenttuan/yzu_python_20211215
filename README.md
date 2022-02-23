@@ -24,14 +24,14 @@ https://drive.google.com/drive/folders/11TA2-LvvWF-9l4Oo3dEirZoSzCMW3CVT?usp=sha
 pip install pillow<br><br>
 安裝 py-opencv :<br>
 1、反安裝(若之前有其他本):<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
 pip uninstall opencv-contrib-python<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
 pip uninstall opencv-python<br>
 2、再安裝:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
 pip install opencv-python<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
 pip install opencv-contrib-python<br>
 <hr>
 <pre>
