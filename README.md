@@ -1,7 +1,9 @@
 # yzu_python_20211215
 元智大學 Python 基礎課程
+<!--
 PDF 連結: <br>
 https://drive.google.com/drive/folders/11TA2-LvvWF-9l4Oo3dEirZoSzCMW3CVT?usp=sharing
+-->
 
 <ol>
     <li><a href="https://github.com/vincenttuan/yzu_python_20211215/tree/main/day1">print 與 input</a></li>
